@@ -2,9 +2,9 @@
   <div>
     
     components/member/Appmember.vue
-    <router-link to="page">Page</router-link>
-    <router-link to="page1">Page1</router-link>
-    <router-link to="page2">Page2</router-link>
+    <router-link to="/page">Page</router-link>
+    <router-link to="/page1">Page1</router-link>
+    <router-link to="/page2">Page2</router-link>
     <router-view></router-view>
   </div>
 </template>
