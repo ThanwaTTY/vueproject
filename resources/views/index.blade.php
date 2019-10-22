@@ -11,9 +11,11 @@
 
     </head>
     <body>
+        <h1>Index.blade.php</h1>
         <div id="app">
             
         </div>
-        <script src="/js/app.js"></script>
+        <!-- <script src="/js/app.js"></script> -->
+        <script src="/js/member/app.js"></script>
     </body>
 </html>

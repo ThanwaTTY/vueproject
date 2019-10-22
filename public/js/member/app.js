@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -31612,32 +31612,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_member_Appmember_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/member/Appmember.vue */ "./resources/js/components/member/Appmember.vue");
- // import router from './router/index.js'
-
-window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-var app = new Vue({
-  el: '#app',
-  render: function render(h) {
-    return h(_components_member_Appmember_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
-  } // router
-
-});
-
-/***/ }),
-
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -31739,26 +31713,40 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./resources/js/member/app.js":
+/*!************************************!*\
+  !*** ./resources/js/member/app.js ***!
+  \************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_member_Appmember_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/member/Appmember.vue */ "./resources/js/components/member/Appmember.vue");
+ // import router from './router/index.js'
+
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
+__webpack_require__(/*! ../bootstrap */ "./resources/js/bootstrap.js");
+
+var app = new Vue({
+  el: '#app',
+  render: function render(h) {
+    return h(_components_member_Appmember_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
+  } // router
+
+});
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/***/ 1:
+/*!******************************************!*\
+  !*** multi ./resources/js/member/app.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\vueproject\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\vueproject\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\vueproject\resources\js\member\app.js */"./resources/js/member/app.js");
 
 
 /***/ })

@@ -1,9 +1,9 @@
-import App from './components/member/Appmember.vue'
+import App from '../components/member/Appmember.vue'
 // import router from './router/index.js'
 
 window.Vue = require('vue');
 
-require('./bootstrap');
+require('../bootstrap');
 
 
 
