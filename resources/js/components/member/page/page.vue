@@ -7,9 +7,6 @@
 
 <script>
 export default {
-    created(){
-        alert(this.$route.path);
-    }
 }
 </script>
 
